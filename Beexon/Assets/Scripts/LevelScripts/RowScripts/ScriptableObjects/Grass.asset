@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b09882ffe409144ca02a1fccf2f47c9, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  blockMaterial:
+  - {fileID: 2100000, guid: cfc897522c80e5447a5aa3e7e99594e7, type: 2}
+  - {fileID: 2100000, guid: 6ac5f569a777e3e488205da3549deea6, type: 2}
+  - {fileID: 2100000, guid: 49c85cee2702ab345bfeeb381bd46a20, type: 2}
+  - {fileID: 2100000, guid: e80f11d1d833a9f4d9ddcefcf4202690, type: 2}
+  wallMaterial: {fileID: 2100000, guid: e80f11d1d833a9f4d9ddcefcf4202690, type: 2}
+  designPrefab: {fileID: 1470253854223750808, guid: a4eb46cd465e34fc0a92757f01228ca2,
+    type: 3}
+  spawnChance: 20

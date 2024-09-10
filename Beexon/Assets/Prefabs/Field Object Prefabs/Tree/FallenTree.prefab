@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &50168630853698327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6898011829487554338}
+  - component: {fileID: 4209053774513112103}
+  m_Layer: 0
+  m_Name: FallenTree
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6898011829487554338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50168630853698327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4209053774513112103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50168630853698327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c6868f000c2a243a38fb74fe9af203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeTile: {fileID: 9203316397654651638, guid: 8627dbed432569e409c5795d479528e0,
+    type: 3}
+  length: 8
+  height: 5
+  models:
+  - {fileID: 4945011907882110279, guid: 3ca43f0b25e8a447da41f7535d0db7f0, type: 3}
+  - {fileID: 5444931908577811286, guid: bb00b5018528549109bfc531dee58e2f, type: 3}
+  - {fileID: 8625205407300725133, guid: 2652e66092ff049c2b28ac4f57653c17, type: 3}
+  - {fileID: 2521840582371965374, guid: 4ea34aff1babe4c3b915e3745d2b8587, type: 3}
+  - {fileID: 5020592855430739109, guid: 9307e98859091431e8697e1f68b66f56, type: 3}
+  - {fileID: 8896218583908101163, guid: 379aec902d76f46989b7a3578591a197, type: 3}
+  - {fileID: 3844109150038332295, guid: b73978ad47140406c878622b0b9f8bfc, type: 3}
